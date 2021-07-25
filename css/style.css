@@ -12,3 +12,19 @@ hr{
     background:linear-gradient(135deg,rgb(145, 238, 145),yellow);
     color:white;
 }
+.plya-icon{
+   border-radius: 50%;
+    animation-name:playbtn;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    transition: 0.5s;
+}
+@keyframes playbtn {
+    from{
+        transform:scale(1)
+    }
+    to{
+        box-shadow: 0 0 5px 6px rgba(240, 151, 35, 0.9);
+        transform:scale(1.1)
+    }
+}
